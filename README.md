@@ -6,8 +6,8 @@
         src = '/assets/icon.png' 
         height = '100' 
         width = '100' 
-        alt = 'Icon' 
-    />
+        alt = '' 
+    >
     <br>
     YouTube Spammer Purge
     <br>
@@ -15,27 +15,21 @@
 
 <!---------------------------------[ Badges ]---------------------------------->
 
-<div align = 'center'>
-    <a href = 'https://github.com/ThioJoe/YT-Spammer-Purge/issues'>
-        <img src = 'https://img.shields.io/github/issues/ThioJoe/YT-Spammer-Purge'/>
-    </a>
-    <a href = 'https://github.com/ThioJoe/YT-Spammer-Purge/pulls'>
-        <img src = 'https://img.shields.io/github/issues-pr/ThioJoe/YT-Spammer-Purge'/>
-    </a>
+<div align = 'center'>   
     <a href = 'https://github.com/ThioJoe/YT-Spammer-Purge/releases'>
-        <img src = 'https://img.shields.io/github/v/release/ThioJoe/YT-Spammer-Purge?include_prereleases&label=Latest%20Release'/>
+        <img src = 'https://img.shields.io/github/v/release/ThioJoe/YT-Spammer-Purge?include_prereleases&label=Latest%20Release' height = '20' alt = 'Latest Release'>
     </a>
     <a href = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/codeql-analysis.yml'>
-        <img src = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/codeql-analysis.yml/badge.svg'/>
+        <img src = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/codeql-analysis.yml/badge.svg' height = '20' alt = 'CodeQL'>
     </a>
     <a href = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/docker-build.yml'>
-        <img src = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/docker-build.yml/badge.svg'/>
+        <img src = 'https://github.com/ThioJoe/YT-Spammer-Purge/actions/workflows/docker-build.yml/badge.svg' height = '20' alt = 'docker-build'>
     </a>
 </div>
 
 <br>
 
-**What Is This?** - Allows you to filter and search for spammer comments on your channel and other's channel(s) in many different ways AND delete/report them all at once (see features below).
+**What Is This?** - Allows you to filter and search for spammer comments on your channel and other's channel(s) in many different ways AND delete/report them all at once (see features below). 
 
 **How to Download:** Click the "[Releases]" link on the right, then on the latest release, under 'Assets' click to download "YTSpammerPurge.exe". (You might have to click "Assets" to view the files for the release)
 > * [Linux Setup Instructions](https://github.com/ThioJoe/YouTube-Spammer-Purge/wiki/Linux-Installation-Instructions)
@@ -81,6 +75,8 @@ _Therefore,_ what you could do is create an _blank dummy-google-account_ with no
 
 Read some additional details about 'moderator mode' on the [wiki page here][Moderator Mode].
 
+**An Additional Note:** No matter the settings, the program runs completely locally on your own machine using the API key and Google Cloud project you created yourself, so even as the program's creator I will never have access to your channel.
+
 ## Usage Notes -READ THIS
 
 1. To use this script, you will need to obtain your own API credentials file by making a project via the Google Developers Console (aka 'Google Cloud Platform'). The credential file should be re-named `client_secret.json` and be placed in the same directory as this script. [See Instructions Here][API Key].
@@ -114,13 +110,15 @@ Read some additional details about 'moderator mode' on the [wiki page here][Mode
     <h2>Filter Mode Selection</h2>
     <br>
     <img 
-        width = '675' 
+         height = '353'
+         width = '675' 
         alt = 'Filter Mode Selection' 
         src = 'https://user-images.githubusercontent.com/93459510/174273476-5af0a1ad-9ca1-4fea-976d-e731ce336922.png'>
     <br>
     <h2>Scanning<br>(Auto Smart Mode)</h2>
     <br>
     <img 
+        height = '353'
         width = '675' 
         alt = 'Scanning (Auto Smart Mode)' 
         src = 'https://user-images.githubusercontent.com/93459510/174273577-38e51d30-f313-4053-ba31-bb2724770dda.png'>
@@ -128,6 +126,7 @@ Read some additional details about 'moderator mode' on the [wiki page here][Mode
     <h2>Matched Comments List</h2>
     <br>
     <img 
+        height = '353'
         width = '675' 
         alt = 'Matched Comments List' 
         src = 'https://user-images.githubusercontent.com/93459510/174273656-0fb22382-ec88-4e63-88f3-e4a93ac1f1ad.png'>
@@ -135,6 +134,7 @@ Read some additional details about 'moderator mode' on the [wiki page here][Mode
     <h2>Match Samples and Deletion Menu</h2>
     <br>
     <img 
+        height = '353'
         width = '675' 
         alt = 'Match Samples and Deletion Menu' 
         src = 'https://user-images.githubusercontent.com/93459510/174273744-3d5a174a-904a-493e-af37-bcca44c57820.png'>
@@ -166,8 +166,7 @@ bash <(curl -s https://raw.githubusercontent.com/ThioJoe/YT-Spammer-Purge/main/i
 
 <img 
     width = '500'
-    src = 'https://user-images.githubusercontent.com/60006481/154855672-165565a1-50db-47d4-bf39-0fb576710f63.gif'
-/>
+    src = 'https://user-images.githubusercontent.com/60006481/154855672-165565a1-50db-47d4-bf39-0fb576710f63.gif'>
 
 See one of the following if you need further help:
 * [Linux Setup Instructions][Instructions Linux]
@@ -179,8 +178,7 @@ To update YTSpammerPurge, run the `install.sh` file inside your installation.
 
 <img 
     width = '500'
-    src = 'https://user-images.githubusercontent.com/60006481/154855673-bf2e8fdb-eaa3-4583-a2a1-80ef4816e2bc.gif' 
-/>
+    src = 'https://user-images.githubusercontent.com/60006481/154855673-bf2e8fdb-eaa3-4583-a2a1-80ef4816e2bc.gif'>
 
 ##### Manual Installation
 
